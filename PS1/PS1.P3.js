@@ -1,3 +1,4 @@
+// the goods
 let lamb = (string, func) => {return func(string);};
 
 // lambda function 1
