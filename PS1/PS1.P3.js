@@ -1,4 +1,4 @@
-let lambda = (string, func) => {return func(string);};
+let lamb = (string, func) => {return func(string);};
 
 // lambda function 1
 let func1 = function(str) {
@@ -17,16 +17,16 @@ let func1 = function(str) {
 let func2 = function(str) {
 
     let replaced = str.replace(/a/g, "A");
-    let count = (a.match(/a/g) || []).length;
+    let count = (str.match(/a/g) || []).length;
     let ret = {
         'originalString': str,
         'modifiedString': replaced,
         'numberReplaced': count,
-        'length': a.length
+        'length': str.length
     };
     return ret;
 };
 
 // test cases
-console.log(`function1: ${ lambda('supercalifragilisticexpialidocious', func1) }`);
-console.log(`function2: ${ lambda('supercalifragilisticexpialidocious', func2) }`);
+console.log(`function1: ${ lamb('supercalifragilisticexpialidocious', func1) }`);
+console.log(`function2: ${ lamb('supercalifragilisticexpialidocious', func2) }`);
