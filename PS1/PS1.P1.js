@@ -1,5 +1,5 @@
 const alphabetize = string => sortString(string);
-console.log(alphabetize('supercalifragilisticexpialidocious'))
+console.log(alphabetize('supercalifragilisticexpialidocious'));
 
 function sortString(str){
     var splitArray = str.split('');
