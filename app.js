@@ -22,8 +22,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static(__dirname + '/public'))
     .use(cors());
 
-app.use('/ps4', indexRouter);
-app.use('/ps4/spotify', spotifyRouter);
+app.use('/ps6', indexRouter);
+app.use('/ps6/spotify', spotifyRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

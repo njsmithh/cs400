@@ -39,4 +39,4 @@ Thumbs.db
 # custom
 #
 /config/*
-/.idea/
+/node_modules/*
