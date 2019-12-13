@@ -1,0 +1,41 @@
+extends layout
+
+block content
+    head
+        title Taylor Swift's Top Songs
+    body
+        .container
+            #success
+                h1 Currently, Taylor Swift's top songs on Spotify are:
+                ul.list-group
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song1}
+                        span.badge.badge-primary.badge-pill 1
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song2}
+                        span.badge.badge-primary.badge-pill 2
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song3}
+                        span.badge.badge-primary.badge-pill 3
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song4}
+                        span.badge.badge-primary.badge-pill 4
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song5}
+                        span.badge.badge-primary.badge-pill 5
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song6}
+                        span.badge.badge-primary.badge-pill 6
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song7}
+                        span.badge.badge-primary.badge-pill 7
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song8}
+                        span.badge.badge-primary.badge-pill 8
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song9}
+                        span.badge.badge-primary.badge-pill 9
+                    li.list-group-item.d-flex.justify-content-between.align-items-center
+                        | #{song10}
+                        span.badge.badge-primary.badge-pill 10
+                p This result was found from #{grabbedFrom}.
